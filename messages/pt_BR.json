@@ -1,0 +1,69 @@
+{
+  "Home": {
+    "balanceAvailable": "Saldo disponível",
+    "receivable": "A receber",
+    "blocked": "Bloqueado"
+  },
+  "CompanyRegister": {
+    "createCompany": "Criar Empresa",
+    "letsStart": "Vamos começar",
+    "fillCompanyDetails": "Hora de preencher os dados da sua empresa para usar a Nextion Pay.",
+    "goBack": "Voltar",
+    "advance": "Avançar",
+    "companyDocument": "Digite seu CNPJ",
+    "companyName": "Digite o nome da empresa",
+    "fantasyName": "Nome fantasia",
+    "appearOnTheInvoice": "Digite o nome que aparecerá na fatura"
+  },
+  "Login": {
+    "hello": "Olá, Bem vindo de volta!",
+    "accountAccess": "Acesse sua conta",
+    "forgotPassword": "Esqueceu sua senha?",
+    "yourEmail": "Seu e-mail",
+    "yourPassword": "Sua senha",
+    "login": "Fazer Login",
+    "noAccount": "Não tem uma conta?",
+    "register": "Cadastre-se",
+    "likeManager": "Entrar como manager"
+  },
+  "Register": {
+    "createAccount": "Criar conta Empresa grátis",
+    "yourData": "Informe seus dados",
+    "yourName": "Seu nome completo",
+    "yourEmail": "Seu e-mail",
+    "yourPassword": "Sua senha",
+    "yourPhone": "Seu celular",
+    "confirmPassword": "Confirme a senha",
+    "confirm": "Li e concordo com os",
+    "terms": "termos de uso",
+    "register": "Cadastrar",
+    "haveAccount": "Já tem uma conta?",
+    "entry": "Entrar",
+    "disclaimer": "Utilizaremos os dados para realizar seu cadastro e te auxiliaremos a inserir informações para ativar a sia loja."
+  },
+  "Forgot": {
+    "recoverPassword": "Recuperar Senha",
+    "toRecover": "Para recuperar sua senha, digite seu e-mail na caixa de texto abaixo que enviaremos um link de recuperação.",
+    "yourEmail": "Seu e-mail",
+    "goBack": "Voltar"
+  },
+  "ChangePassword": {
+    "changePassword": "Alterar senha",
+    "typeIt": "Digite e confirme uma nova senha.",
+    "typeCode": "Digite o código de verificação",
+    "didntReceive": "Não recebeu o código?",
+    "resend": "Reenviar",
+    "newPassword": "Nova senha",
+    "confirmPassword": "Confirmar senha",
+    "goBack": "Voltar",
+    "send": "Enviar"
+  },
+  "TwoFactors": {
+    "twoFactorsVerification": "Verificação de dois fatores",
+    "sentEmail": "Digite o código enviado para o seu e-mail",
+    "didntReceive": "Não recebeu o código?",
+    "resend": "Reenviar",
+    "goBack": "Voltar",
+    "send": "Enviar"
+  }
+}

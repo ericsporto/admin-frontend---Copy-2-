@@ -1,0 +1,68 @@
+{
+  "Home": {
+    "balanceAvailable": "Balance available",
+    "receivable": "receivable",
+    "blocked": "Blocked"
+  },
+  "CompanyRegister": {
+    "createCompany": "Create Company",
+    "letsStart": "Let's start",
+    "fillCompanyDetails": "Now let's fill in your company details to use Nextion Pay.",
+    "goBack": "Go Back",
+    "advance": "Advance",
+    "companyDocument": "Enter your EIN",
+    "companyName": "Enter the company name",
+    "fantasyName": "Fantasy name",
+    "appearOnTheInvoice": "Enter the name that will appear on the invoice"
+  },
+  "Login": {
+    "hello": "Hello, Welcome back!",
+    "accountAccess": "Access your account",
+    "forgotPassword": "Forgot your password?",
+    "yourEmail": "Your e-mail",
+    "yourPassword": "Your password",
+    "login": "Login",
+    "noAccount": "Don't have an account?",
+    "register": "Register",
+    "likeManager": "Login as manager"
+  },
+  "Register": {
+    "createAccount": "Create a free Company account",
+    "yourData": "Enter your data",
+    "yourName": "Your full name",
+    "yourEmail": "Your e-mail",
+    "yourPassword": "Your password",
+    "yourPhone": "Your phone",
+    "confirmPassword": "Confirm your password",
+    "confirm": "I have read and agree with the",
+    "terms": "terms of use",
+    "register": "Register",
+    "haveAccount": "Already have an account?",
+    "entry": "To enter",
+    "disclaimer": "We will use the data to register and help you enter information to activate your store."
+  },
+  "Forgot": {
+    "recoverPassword": "Recover Password",
+    "toRecover": "To recover your password, enter your email in the text box below and we will send you a recovery link.",
+    "yourEmail": "Your e-mail",
+    "goBack": "Go Back"
+  },
+  "ChangePassword": {
+    "changePassword": "Change password",
+    "typeIt": "Enter and confirm a new password.",
+    "didntReceive": "Didn't receive the code?",
+    "resend": "Resend",
+    "newPassword": "New password",
+    "confirmPassword": "Confirm password",
+    "goBack": "Go back",
+    "send": "To send"
+  },
+  "TwoFactors": {
+    "twoFactorsVerification": "Two factors verification",
+    "sentEmail": "Enter the code sent to your email",
+    "didntReceive": "Didn't receive the code?",
+    "resend": "Resend",
+    "goBack": "Go back",
+    "send": "To send"
+  }
+}

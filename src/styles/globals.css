@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.inputStyle {
+  @apply rounded-[10px] border border-gray-50 bg-transparent flex text-center uppercase font-semibold transition;
+  width: 54px !important;
+  height: 54px !important;
+  color: #000000;
+  font-size: 2rem;
+  outline: 0;
+
+  @media screen and (max-width: 768px) {
+    width: 40px !important;
+    height: 40px !important;
+    font-size: 1.5rem;
+  }
+  @media screen and (max-width: 480px) {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 1rem;
+  }
+}
+
+.containerOTP {
+  @apply flex justify-center gap-4;
+}
+
+.inputError {
+  border-color: #e8908c !important;
+}
+
+.shadowCardLogin {
+  -webkit-box-shadow: 2px -14px 53px -25px rgba(174, 174, 174, 1);
+  -moz-box-shadow: 2px -14px 53px -25px rgba(174, 174, 174, 1);
+  box-shadow: 2px -14px 53px -25px rgba(174, 174, 174, 1);
+}
+
+@media screen and (min-width: 1024px) {
+  .shadowCardLogin {
+
+    box-shadow: none;
+  }
+}
+
+
+
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 6.5px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #16704D, #00CF79);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  background: #00CF79;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  margin-top: -5px;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background: linear-gradient(to right, #16704D, #00CF79);
+  height: 6.5px;
+  border-radius: 10px;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: #25312F;
+  border-radius: 10px
+
+}
+div::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+  background: #25312F;
+  border-radius: 10px
+}
+
+div::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #AEAEAE
+  }
+div::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #00CF79
+  }
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background-color: #1c1b1f;
+  height: 100vh;
+}
+
+.Toastify__toast--success {
+  border: 1px solid #fafafa !important;
+  border-radius: 20px !important;
+  background: #25312f !important;
+  color: #fafafa !important;
+}
+
+option {
+  color: black;
+  font-weight: 500
+}
+
